@@ -1,0 +1,69 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "bboxes": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "B-B-ADDRESS",
+          "B-B-NAME",
+          "B-INVOICE NO",
+          "B-ORDER DATE",
+          "B-S-ADDRESS",
+          "B-S-NAME",
+          "B-TOTAL GROSS",
+          "E-B-ADDRESS",
+          "E-B-NAME",
+          "E-INVOICE NO",
+          "E-ORDER DATE",
+          "E-S-ADDRESS",
+          "E-S-NAME",
+          "E-TOTAL GROSS",
+          "I-B-ADDRESS",
+          "I-B-NAME",
+          "I-INVOICE NO",
+          "I-ORDER DATE",
+          "I-S-ADDRESS",
+          "I-S-NAME",
+          "O",
+          "S-B-ADDRESS",
+          "S-B-NAME",
+          "S-GST NO",
+          "S-INVOICE NO",
+          "S-ORDER DATE",
+          "S-ORDER NO",
+          "S-S-ADDRESS",
+          "S-TOTAL GROSS"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "Sequence"
+    },
+    "image": {
+      "_type": "Image"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
